@@ -1,5 +1,5 @@
 Class {
-	#name : #DofDataSource,
+	#name : #DofuDataSource,
 	#superclass : #Object,
 	#instVars : [
 		'itemAspects'

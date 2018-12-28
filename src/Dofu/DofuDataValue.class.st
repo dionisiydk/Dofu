@@ -1,15 +1,15 @@
 Class {
-	#name : #DofDataValue,
+	#name : #DofuDataValue,
 	#superclass : #Object,
 	#category : #Dofu
 }
 
 { #category : #accessing }
-DofDataValue >> read [ 
+DofuDataValue >> read [ 
 	self subclassResponsibility 
 ]
 
 { #category : #accessing }
-DofDataValue >> write: anObject [ 
+DofuDataValue >> write: anObject [ 
 	self subclassResponsibility 
 ]

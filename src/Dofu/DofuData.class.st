@@ -1,5 +1,5 @@
 Class {
-	#name : #DofData,
+	#name : #DofuData,
 	#superclass : #Object,
 	#instVars : [
 		'name',
@@ -16,11 +16,11 @@ Class {
 }
 
 { #category : #accessing }
-DofData >> actualValue [
+DofuData >> actualValue [
 	^value read
 ]
 
 { #category : #accessing }
-DofData >> actualValue: anObject [
+DofuData >> actualValue: anObject [
 	value write: anObject
 ]
