@@ -2,7 +2,8 @@ Class {
 	#name : #DofuDataSource,
 	#superclass : #Object,
 	#instVars : [
-		'itemAspects'
+		'announcer',
+		'structure'
 	],
 	#category : #Dofu
 }

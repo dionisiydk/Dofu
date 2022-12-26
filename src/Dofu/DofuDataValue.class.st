@@ -5,11 +5,11 @@ Class {
 }
 
 { #category : #accessing }
-DofuDataValue >> read [ 
+DofuDataValue >> content [
 	self subclassResponsibility 
 ]
 
 { #category : #accessing }
-DofuDataValue >> write: anObject [ 
+DofuDataValue >> content: anObject [ 
 	self subclassResponsibility 
 ]
