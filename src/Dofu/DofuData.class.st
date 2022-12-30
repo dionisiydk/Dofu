@@ -74,6 +74,15 @@ DofuData >> textDecoration: anObject [
 	textDecoration := anObject
 ]
 
+{ #category : #updating }
+DofuData >> updateContentWithString: newStringValue [
+	
+	| undecoratedString newValue |
+	undecoratedString := textDecoration convertDecoratedTextToNative: newStringValue.
+	newValue := textConverter parseObjectFromString: undecoratedString.
+	value content: newValue
+]
+
 { #category : #initialization }
 DofuData >> useDefaultSettings [
 	| content |
